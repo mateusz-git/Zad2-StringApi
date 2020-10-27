@@ -12,4 +12,20 @@ public class Details {
         this.digitCase = digitCase;
         this.specialCase = specialCase;
     }
+
+    public int getUpperCase() {
+        return upperCase;
+    }
+
+    public int getLowerCase() {
+        return lowerCase;
+    }
+
+    public int getDigitCase() {
+        return digitCase;
+    }
+
+    public int getSpecialCase() {
+        return specialCase;
+    }
 }
