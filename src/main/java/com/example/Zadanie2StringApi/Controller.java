@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
     @GetMapping("/showDetails")
     public Details showDetails(@RequestParam String word) {
-        return null;
+        return CountingFunctions.count(word);
     }
 }
